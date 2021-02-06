@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="description" content="Тестовое задание iLab">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<title>Task for iLab</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="nav-wrapper border-light">
+				
+				<div class="nav-menu">
+					<!--<img src="/img/rectangle_99.png">-->
+					<!--<i class="fas fa-bars"></i>
+					<span>О компании</span>
+					<span>Новости</span>
+					<span>Акции</span>
+					<span>Вакансии</span>
+					<span>Контакты</span>
+					<span>Еще</span>
+					<span>Меню</span>-->
+					<ul>
+						<li><i class="fas fa-bars"></i></li>
+						<li>О компании&nbsp;<i class="arrow down"></i></li>
+						<li>Новости</li>
+						<li>Акции</li>
+						<li>Вакансии</li>
+						<li>Контакты</li>
+						<li>Еще&nbsp;<i class="arrow down"></i></li>
+						<li class="none text-uppercase">Меню</li>
+					</ul>
+				</div>
+				<div class="nav-contacts-item none">
+					<img src="img/contacts/1.png">
+					<span>&nbsp;&nbsp;+7 (727) <span class="text-bold">364-50-55</span>&nbsp;&nbsp;<i class="arrow down"></i></span>
+
+				</div>
+				<div class="nav-links">
+					<div class="nav-links-item">
+						<i class="fas fa-envelope"></i>
+						<a href="#" class="border-bottom-dashed">Напишите нам</a>
+					</div>
+					<div class="nav-links-item">
+						<i class="fas fa-user-lock"></i>
+						<a href="#" class="border-bottom-dashed">Личный кабинет</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="header-main">
+				<div class="logo">
+					<img src="img/logo/3.png">
+				</div>
+				<div class="header-contacts">
+					<div class="header-contacts-item">
+						<img src="img/contacts/1.png">
+						<span>+7 (727) <span class="text-bold">364-50-55</span></span>
+					</div>
+					<div class="header-contacts-item">
+						<img src="img/contacts/2.png">
+						<span>+7 (771) <span class="text-bold">333-50-55</span></span>
+					</div>
+				</div>
+				<div class="header-services">
+					<div class="header-services-item">
+						<img src="img/services/1.png">
+						<a href="#" class="border-bottom-dashed">Доставка</a>
+					</div>
+					<div class="header-services-item">
+						<img src="img/services/2.png">
+						<a href="#" class="border-bottom-dashed">Оплата</a>
+					</div>
+				</div>
+				<div class="cart">
+					<div class="cart-img">
+						<img src="img/cart/1.png">
+						<img src="img/cart/2.png">
+					</div>
+					<div class="cart-info">
+						<p>
+							<span class="text-strong text-bold color-blue">15</span><span>&nbsp;шт.</span>
+						</p>
+						<p>
+							<span class="text-bold color-blue">2 569 876</span><span>&nbsp;тг.</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- section of catalog, search, banner and tisers -->
+	<section>
+		<div class="container container-catalog">
+			<div class="catalog">
+				<div class="catalog-start border-light">
+					<img src="img/catalog/1.png" class="blue-catalog">
+					<img src="img/catalog/3.png" class="white-catalog none">
+					<span class="text-uppercase text-bold">Каталог товаров</span>
+					<i class="arrow up" id="catalog-list-button"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Овощи, фрукты, зелень, грибы</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-13px text-bold">Молочные продукты, сыр, яйца</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Мясо и птица</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Рыба, икра, морепродукты</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Колбасы, сосиски, деликатесы</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Крупы, макароны, бакалея</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Консервация, соусы, приправы</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Напитки, чай, кофе</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-item border-light">
+					<span class="text-bold text-13px">Хлеб, кондитерские изделия</span>
+					<i class="arrow right"></i>
+				</div>
+				<div class="catalog-end border-light center">
+					<img src="img/catalog/2.png" class="">
+				</div>
+
+				<div class="search search-catalog none">
+					<input type="text" name="" placeholder="Поиск товаров">
+					<img src="img/search/1.png">
+				</div>
+			</div>
+			<div class="right-section">
+				<div class="search search-right-section">
+					<input type="text" name="" placeholder="Поиск товаров">
+					<img src="img/search/1.png">
+				</div>
+				<div class="banner">
+					
+						<div><img src="img/banner/1.png"></div>
+						<div><img src="img/banner/2.jpg"></div>
+						<div><img src="img/banner/3.jpg"></div>
+						<div><img src="img/banner/4.png"></div>
+						<div><img src="img/banner/5.png"></div>
+						<div><img src="img/banner/6.png"></div>
+						<div><img src="img/banner/7.jpg"></div>
+					
+				</div>
+				<div class="banner-down none">
+
+					<div><img src="img/banner/8.png"></div>
+					<div><img src="img/banner/9.png"></div>
+					<div><img src="img/banner/10.jpg"></div>
+					<div><img src="img/banner/11.jpg"></div>
+					<div><img src="img/banner/12.png"></div>
+					<div><img src="img/banner/13.jpg"></div>
+					<div><img src="img/banner/14.png"></div>
+
+				</div>
+				<div class="tisers color-blue">
+					<div class="tisers-item center">
+						<img src="img/tisers/1.png">
+						<p>Бесплатная доставка</p>
+					</div>
+					<div class="tisers-item center">
+						<img src="img/tisers/2.png">
+						<p>Гарантия качества</p>
+					</div>
+					<div class="tisers-item center">
+						<img src="img/tisers/3.png">
+						<p>Удобная оплата</p>
+					</div>
+					<div class="tisers-item center">
+						<img src="img/tisers/4.png">
+						<p>Как <br> купить?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end of section of catalog, search, banner and tisers -->
+
+	<!-- section of novelties -->
+	<section>
+		<div class="container container-novelties">
+			<div class="novelties-title">
+				<div class="novelties-title-void-item">
+					
+				</div>
+				<div>
+					<span class="text-strong text-bold">Новинки</span>
+				</div>
+				<div>
+					<img src="img/novelties/1.png">
+				</div>
+			</div>
+			<div class="novelties-card">
+				<div class="novelties-card-item">
+					<img src="img/novelties/card/1.png">
+					<img src="img/novelties/card/new.png" class="flag-new">
+					<img src="img/novelties/card/discount.png" class="flag-discount">
+					<span class="center">Кукуруза консервированная "Bonduelle" 425мл</span>
+					<div class="prices">
+						<span class="center old-price">600 тг. / шт</span>
+						<span class="center price text-bold">487  тг. / шт.</span>
+					</div>
+					<div class="novelties-card-buttons">
+						<div class="novelties-card-buttons-item">
+							<span class="bg-grey left-radius text-bold">-</span>
+							<span class="text-bold">12</span>
+							<span class="bg-grey right-radius text-bold">+</span>
+						</div>
+						<div class="novelties-card-buttons-item">
+							<span class="button-buy bg-blue">Купить</span>
+						</div>
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare.png">&nbsp;Сравнить</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite.png">&nbsp;В избранное</span>
+					</div>
+				</div>
+				<div class="novelties-card-item">
+					<img src="img/novelties/card/2.png">
+					<img src="img/novelties/card/new.png" class="flag-new">
+					<span class="center">Голень индейки "Дамдi Ет" замороженная в вакууме 275 г</span>
+					<span class="center price text-bold">1 065 тг. / кг.</span>
+					<div class="novelties-card-info bg-grey">
+						<img src="img/novelties/card/cart.png">
+						<div><span>в корзине: <span class="text-bold">12 кг</span></span></div>
+						<img src="img/novelties/card/close.png">
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare-active.png">&nbsp;В сравнении</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite-active.png">&nbsp;В избранном</span>
+					</div>
+				</div>
+				<div class="novelties-card-item">
+					<img src="img/novelties/card/3.png">
+					<img src="img/novelties/card/new.png" class="flag-new">
+					<span class="center">Колбаса варёно-копчёная "Дамдi Ет" Премьерская в вакууме</span>
+					<span class="center price text-bold">5 187 тг. / шт.</span>
+					<div class="novelties-card-info bg-grey">
+						<img src="img/novelties/card/cart.png">
+						<div><span>в корзине: <span class="text-bold">12 кг</span></span></div>
+						<img src="img/novelties/card/close.png">
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare.png">&nbsp;Сравнить</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite.png">&nbsp;В избранное</span>
+					</div>
+				</div>
+				<div class="novelties-card-item">
+					<img src="img/novelties/card/4.2.png">
+					<img src="img/novelties/card/new.png" class="flag-new">
+					<span class="center">Мед натуральный с соком грейпфрута</span>
+					<span class="center price text-bold">1 260 тг. / шт.</span>
+					<div class="novelties-card-buttons">
+						<div class="novelties-card-buttons-item">
+							<span class="bg-grey left-radius text-bold">-</span>
+							<span class="text-bold">12</span>
+							<span class="bg-grey right-radius text-bold">+</span>
+						</div>
+						<div class="novelties-card-buttons-item">
+							<span class="button-buy bg-blue">Купить</span>
+						</div>
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare.png">&nbsp;Сравнить</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite.png">&nbsp;В избранное</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section of novelties -->
+
+	<!-- section of banners -->
+	<section>
+		<div class="container container-promo">
+			<div class="promo">
+				<div class="promo-item">
+					<img src="img/promo/1.png" class="promo-img">
+					<img src="img/promo/mobile/1.png" class="promo-mobile-img none">
+					<div class="promo-text center">
+						<span class="color-blue text-bold">Томатный кетчуп Heinz</span>
+					</div>
+				</div>
+				<div class="promo-item">
+					<img src="img/promo/2.png" class="promo-img">
+					<img src="img/promo/mobile/2.png" class="promo-mobile-img none">
+					<div class="promo-text center">
+						<span class="color-blue text-bold">Майонез классический Провансаль</span>
+					</div>
+				</div>
+				<div class="promo-item">
+					<img src="img/promo/3.png" class="promo-img">
+					<img src="img/promo/mobile/3.png" class="promo-mobile-img none">
+					<div class="promo-text center">
+						<span class="color-blue text-bold">Газированная вода Tassay</span>
+					</div>
+				</div>
+				<div class="promo-item">
+					<img src="img/promo/4.png" class="promo-img">
+					<img src="img/promo/mobile/4.png" class="promo-mobile-img none">
+					<div class="promo-text center">
+						<span class="color-blue text-bold">Фанта Ананас</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section of banners -->
+
+	<!-- section of discount -->
+	<section>
+		<div class="container container-novelties">
+			<div class="novelties-title">
+				<div class="novelties-title-void-item">
+					
+				</div>
+				<div>
+					<span class="text-strong text-bold">Товары со скидкой</span>
+				</div>
+				<div>
+					<img src="img/novelties/1.png">
+				</div>
+			</div>
+			<div class="novelties-card">
+				<div class="novelties-card-item">
+					<img src="img/discount/1.png">
+					<img src="img/discount/discount.png" class="flag-new">
+					<span class="center">Влажная туалетная бумага "Zewa" Pure</span>
+					<div class="prices">
+						<span class="center old-price">830 тг</span>
+						<span class="center price text-bold">784 тг. / шт.</span>
+					</div>
+					<div class="novelties-card-buttons">
+						<div class="novelties-card-buttons-item">
+							<span class="bg-grey left-radius text-bold">-</span>
+							<span class="text-bold">12</span>
+							<span class="bg-grey right-radius text-bold">+</span>
+						</div>
+						<div class="novelties-card-buttons-item">
+							<span class="button-buy bg-blue">Купить</span>
+						</div>
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare.png">&nbsp;Сравнить</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite.png">&nbsp;В избранное</span>
+					</div>
+				</div>
+				<div class="novelties-card-item">
+					<img src="img/discount/2.2.png">
+					<img src="img/discount/discount.png" class="flag-new">
+					<span class="center">Пюре "Fleur Alpine" Organic Яблоко с 4 месяцев, 90гр </span>
+					<span class="center price text-bold">438 тг. / шт.</span>
+					<div class="novelties-card-info bg-grey">
+						<img src="img/novelties/card/cart.png">
+						<div><span>в корзине: <span class="text-bold">12 шт</span></span></div>
+						<img src="img/novelties/card/close.png">
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare-active.png">&nbsp;В сравнении</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite-active.png">&nbsp;В избранном</span>
+					</div>
+				</div>
+				<div class="novelties-card-item">
+					<img src="img/discount/3.png">
+					<img src="img/discount/discount.png" class="flag-new">
+					<span class="center">Корм "Pedigree" Для Взрослых Собак Говядина Ягненок, 100гр</span>
+					<span class="center price text-bold">115 тг. / шт.</span>
+					<div class="novelties-card-info bg-grey">
+						<img src="img/novelties/card/cart.png">
+						<div><span>в корзине: <span class="text-bold">12 шт</span></span></div>
+						<img src="img/novelties/card/close.png">
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare.png">&nbsp;Сравнить</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite.png">&nbsp;В избранное</span>
+					</div>
+				</div>
+				<div class="novelties-card-item">
+					<img src="img/discount/4.2.png">
+					<img src="img/discount/discount.png" class="flag-new">
+					<span class="center">Грибы Вешенки</span>
+					<span class="center price text-bold">1 180 тг. / шт.</span>
+					<div class="novelties-card-buttons">
+						<div class="novelties-card-buttons-item">
+							<span class="bg-grey left-radius text-bold">-</span>
+							<span class="text-bold">12</span>
+							<span class="bg-grey right-radius text-bold">+</span>
+						</div>
+						<div class="novelties-card-buttons-item">
+							<span class="button-buy bg-blue">Купить</span>
+						</div>
+					</div>
+					<div class="novelties-card-end">
+						<span class="border-bottom-dashed"><img src="img/novelties/card/compare.png">&nbsp;Сравнить</span>
+						<span class="border-bottom-dashed"><img src="img/novelties/card/favorite.png">&nbsp;В избранное</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section of discount -->
+
+	<!-- section of blog -->
+	<section>
+		<div class="container container-blog">
+			<div class="blog-card">
+				<div class="blog-card-item">
+					<span class="blog-card-title text-bold text-strong">Новости</span>
+					<div class="blog-card-content">
+						<div class="blog-card-content-item border-light">
+							<img src="img/blog/news/1.png">
+							<span class="center blog-card-content-item-date">15 декабря 2017</span><p class="center color-blue">Делай добро, и оно обязательно к тебе вернется.</p><span>Британские ученые открыли новый способ реализации продуктов питания через ...</span>
+						</div>
+						<div class="blog-card-content-item border-light">
+							<img src="img/blog/news/2.png">
+							<span class="center blog-card-content-item-date">15 декабря 2017</span><p class="center color-blue">День зеленого краба.</p><span>Британские ученые открыли новый способ реализации продуктов питания через крупные ритейлерские торговые сети ...</span>
+						</div>
+					</div>
+					<div class="blog-card-end color-blue border-light">
+						<span >Все каталоги&nbsp;&nbsp;</span><img src="img/blog/common/1.png">
+					</div>
+				</div>
+				<div class="blog-card-item">
+					<span class="blog-card-title text-bold text-strong">Акции</span>
+					<div class="blog-card-content">
+						<div class="blog-card-content-item border-light">
+							<img src="img/blog/stock/1.png">
+							<span class="center blog-card-content-item-date">15 декабря 2017</span><p class="center color-blue">Делай добро, и оно обязательно к тебе вернется.</p><span>Британские ученые открыли новый способ реализации продуктов питания через ...</span>
+						</div>
+						<div class="blog-card-content-item border-light">
+							<img src="img/blog/stock/2.png">
+							<span class="center blog-card-content-item-date">15 декабря 2017</span><p class="center color-blue">Акция «Предложение среды»</p><span>Британские ученые открыли новый способ реализации продуктов питания через крупные ритейлерские ...</span>
+						</div>
+					</div>
+					<div class="blog-card-end color-blue border-light">
+						<span >Все каталоги&nbsp;&nbsp;</span><img src="img/blog/common/1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section of blog -->
+
+	<!-- section of SEO -->
+	<section>
+		<div class="container container-seo">
+			<div class="seo border-light">
+				<div>
+					<img src="img/logo/3.png">
+				</div>
+				<div class="seo-text">
+					<span class="text-13px">
+						«MOL.KZ»-интернет магазин по продаже пищевых продуктов, хозяйственных товаров и бытовой химии по самым низким ценам. Магазин предлагает быструю и бесплатную доставку в городах Алматы и Астана, а также недорогую, но быструю доставку курьерской почтой во все регионы Казахстана.
+					</span>
+					<br>
+					<span class="text-13px">
+						Магазин открыт в 2012 году и за это время зарекомендовал себя надежным продавцом и партнером.  
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section of SEO -->
+
+	<!-- section of footer -->
+	<section>
+		<div class="container container-footer border-light">
+			<div class="footer">
+				<div class="footer-contacts">
+					<div class="footer-contacts-item">
+						<img src="img/footer/contacts/1.png">
+						<span class="footer-contacts-phone">8 (727) <span class="text-bold">123-45-67, 987-65-43, <span id="phone">550-25-20</span></span></span>
+					</div>
+					<div class="footer-contacts-item">
+						<img src="img/footer/contacts/2.png">
+						<span class="footer-contacts-phone">8 (777) <span class="text-bold">555-00-00</span></span>
+					</div>
+					<div class="footer-contacts-item address">
+						<span class="text-13px">г. Алматы, микрорайон 1, д.№ 1, оф.10</span>
+						<a href="#" class="border-bottom-dashed">посмотреть карту</a>
+					</div>
+					<div class="footer-contacts-item">
+						<span class="text-13px">info@mol.kz</span>
+					</div>
+					<div class="footer-contacts-item">
+						<img src="img/footer/contacts/3.png">
+					</div>
+				</div>
+				<div class="footer-map">
+					<div class="footer-map-item">
+						<ul>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Наши магазины</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="footer-map-item">
+						<ul>
+							<li><a href="#">Бонусные карты</a></li>
+							<li><a href="#">Акции, скидки и подарки</a></li>
+							<li><a href="#">Новинки</a></li>
+							<li><a href="#">Наша газета</a></li>
+						</ul>
+					</div>
+					<div class="footer-map-item">
+						<ul>
+							<li><a href="#">Как выбрать товар</a></li>
+							<li><a href="#">Условия доставки</a></li>
+							<li><a href="#">Условия оплаты</a></li>
+							<li><a href="#">Установка, монтаж</a></li>
+							<li><a href="#">Обмен и возврат</a></li>
+							<li><a href="#">Программа расширенной<br> гарантии</a></li>
+							<li><a href="#">Подарочные сертификаты</a></li>
+							<li><a href="#">Купить в кредит</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section of footer -->
+
+	<!-- section of copywriting -->
+	<section>
+		<div class="container container-copywriting border-light">
+			<div class="copywriting">
+				<span class="copywriting-item text-13px center">Интернет-магазин “MOL.kz”. <span id="copy">Все права защищены © 2018.</span></span>
+				<span class="copywriting-item text-13px">Внедрение интернет-магазина - <a href="#">iLab-Ecommerce</a></span>
+				<span class="copywriting-item text-13px">Разработка интернет-магазина - <a href="#">iLab</a></span>
+			</div>
+		</div>
+	</section>
+	<!-- section of copywriting -->
+
+	<!-- section of end-panel -->
+	<footer>
+		<div class="container container-end-panel bg-blue">
+			<div class="end-panel">
+				<div class="end-panel-item">
+					<img src="img/catalog/3.png" class="white-catalog" style="margin-right: 14px;">
+					<span class="text-uppercase text-bold" style="color: #fefefe">Каталог <span id="end-panel-word">товаров</span></span>
+				</div>
+				<div class="end-panel-item search search-catalog">
+					<input type="text" name="" placeholder="Поиск товаров">
+					<img src="img/search/1.png">
+				</div>
+				<div class="end-panel-item novelties-card-end">
+					<img src="img/end-panel/3.png" class="end-panel-item-img-links none">
+					<span class="end-panel-links">
+						<img src="img/end-panel/3.png">&nbsp;Сравнить
+					</span>
+					<img src="img/end-panel/4.png" class="end-panel-item-img-links none" style="margin: 0px 25px">
+					<span class="end-panel-links" style="margin: 0px 50px">
+						<img src="img/end-panel/4.png">&nbsp;В избранное
+					</span>
+					<img src="img/end-panel/1.png" class="end-panel-item-img-links none">
+					<span class="end-panel-links">
+						<img src="img/end-panel/1.png">&nbsp;Кабинет
+					</span>
+				</div>
+				<div class="end-panel-item cart">
+					<div class="cart-img">
+						<img src="img/end-panel/2.png">
+					</div>
+					<div class="cart-info end-panel-cart-info">
+						<p>
+							<span class="text-bold" style="font-size: 18px;">15</span><span class="text-13px">&nbsp;шт.</span>
+						</p>
+						<p>
+							<span class="text-bold text-13px">2 569 876</span><span style="font-size: 11px;">&nbsp;тг.</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end section of end-panel -->
+<script type="text/javascript" src="js/jquery3.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
